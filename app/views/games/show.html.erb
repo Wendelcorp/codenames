@@ -10,7 +10,7 @@
   </div>
 </p>
 
-<%= render_qr_code("https://www.google.com/") %>
+<%= render_qr_code(game_cypher_path(@game.id)) %>
 
 <%= link_to 'View Cypher', game_cypher_path(@game.id), target: "_blank" %>
 
