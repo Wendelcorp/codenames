@@ -8,6 +8,7 @@ class GamesController < ApplicationController
 
   # GET /games/1 or /games/1.json
   def show
+    qrcode = RQRCode::QRCode.new("http://github.com/")
   end
 
   # GET /games/1 or /games/1.json
