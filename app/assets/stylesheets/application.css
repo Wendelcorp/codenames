@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+    box-sizing: border-box;
+}
+ .words {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ .word {
+    width: 17vw;
+    display: block;
+    border: 2px solid grey;
+    text-align: center;
+    padding: 50px 0;
+    margin: 10px 0;
+    font-size: 1.6em;
+    font-weight: bolder;
+ }
+.cypher .type-0, .show-type-0 {
+    background-color: #BFB6BB;
+}
+.cypher .type-1, .show-type-1 {
+    background-color: #2364AA;
+    color:white;
+}
+.cypher .type-2, .show-type-2 {
+    background-color: #D62839;
+    color:white;
+}
+.cypher .type-3, .show-type-3 {
+    background-color: #36393B;
+    color: white;
+}
