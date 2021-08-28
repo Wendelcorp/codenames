@@ -81,3 +81,17 @@ table.qrcode {
       }
     }
   }
+
+  @media all and (max-width: 800px) and (orientation:landscape) 
+  {
+    .word {
+        width: 17vw;
+        display: block;
+        border: 2px solid grey;
+        text-align: center;
+        padding: 10px 0;
+        margin: 5px 0;
+        font-size: 1em;
+        font-weight: bolder;
+     }
+  }
