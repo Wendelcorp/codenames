@@ -12,3 +12,10 @@
 
 <%= link_to 'Back', games_path %>
 
+<script>
+[...document.querySelectorAll('.word')].forEach(function(item) {
+  item.addEventListener('click', function() {
+    item.classList.add("black-border");
+  });
+});
+</script>
